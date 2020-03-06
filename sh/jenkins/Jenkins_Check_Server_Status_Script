@@ -1,11 +1,11 @@
 #!/bin/sh -x
-#
-#
-#
-#
-#
-#
-#
+####################################################################################################################
+#This Job is Allowing for get Jenkins server status 
+#Wheather it is Down or Up, Before using this Have some dependency
+#Must Have Jenkins Description setter Plugin for show table on status page
+#Jenkins username and token, for proxy if dont required just remove it 
+#[Regular expression]=【DESCRIPTION】 (.*) and Description "\1"
+#If you wish to use it your own way go ahead, it just a good Example which was really hard to find over internet
 ####################################################################################################################
 ###if you have proxy
 http_proxy_ipv6=http://177.222.111.8787:80880/ 
